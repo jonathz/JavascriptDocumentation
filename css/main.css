@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    /* align-items: center; */
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#list{
+    
+    position: sticky;
+    top: 20px;}
+#navBar{
+    padding: 20px;
+    border: 1px solid white;
+    text-align: center;
+    background-color: black;
+    position: inherit;
+}
+#navBar header{
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+#navBar header:hover{
+    background-color: rgb(105, 105, 105);
+}
+
+#main-doc{
+    text-align: justify;
+    border: 1px solid white;
+    padding: 20px;
+}
+#main-doc header{
+    font-size: 20px;
+    background-color: rgb(66 66 66);
+    text-align: center;
+    padding: 3px;
+}
+code{
+    background-color: black;
+    padding: 5px;
+    
+}
+@media only screen and (max-width: 500px) {
+    body {
+      flex-direction: column;
+    }
+  }
